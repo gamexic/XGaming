@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+    background-color: white;
+}
+a {
+	text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    background-color: var(--black);
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+    overflow: hidden;
+}
+p {
+	color: black;
+	font-size: 1.6rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+}
+:root {
+    --black: #141414;
+    --white: white;
+    --other-white: rgb(234, 234, 234);
+}
+#hero h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+/* Hero Section */
+
+#hero {
+    background-image: url(../IMG/WhatsApp\ Image\ 2023-06-02\ at\ 01.47.52.jpeg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+#hero .hero-container {
+    height: 90vh;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+#hero .hero-container h1 {
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+#hero .hero-container a {
+    color: var(--white);
+    border: 3px solid var(--white);
+    font-size: 2.5rem;
+    border-radius: 10px;
+    padding: 10px 40px;
+    letter-spacing: .1rem;
+}
+
+
+/* End Hero Section */
