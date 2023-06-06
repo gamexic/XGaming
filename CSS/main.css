@@ -231,6 +231,13 @@ h4 {
     background-color: white;
     height: 20px;
 }
+.main-product .main-product-buy_process .main-product-info_activator:hover {
+    border: none;
+}
+.main-product .main-product-buy_process .main-product-info_activator:hover h4 {
+    border: none;
+    border-bottom: 1px solid black;
+}
 .main-product .main-product-buy_process .main-product-info_activator h4:hover {
     border-bottom: 1px solid black;
 }
