@@ -32,7 +32,7 @@ p {
 	letter-spacing: 0.05rem;
 }
 span {
-    color: yellow;
+    color: var(--other-blue);
 }
 :root {
     --black: #141414;
@@ -46,7 +46,7 @@ span {
 }
 h2 {
     font-size: 2.5rem;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 h3 {
     font-size: 1.8rem;
@@ -273,3 +273,56 @@ h4 {
 }
 
 /* End Main Product Section */
+
+/* Products Section */
+
+.products-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.products-container h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.products-container .products-container_links {
+    width: 100%;
+    max-width: 800px;
+    padding: 0px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.products-container .products-container_links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: var(--black);
+}
+.products-container .products-container_links a:hover {
+    background-color: white;
+}
+.products-container .products-container_links a:hover h3 {
+    color: black;
+}
+.products-container .products-container_links a img {
+    border-radius: 20px 20px 0 0;
+}
+.products-container .products-container_links a h3 {
+    padding: 8px 0;
+    color: white;
+    font-weight: bolder;
+}
+
+/* End Products Section */
