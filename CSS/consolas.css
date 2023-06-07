@@ -1,0 +1,131 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+    background-color: white;
+}
+a {
+	text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    background-color: var(--black);
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+    overflow: hidden;
+}
+p {
+	color: black;
+	font-size: 1.6rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+}
+span {
+    color: var(--other-blue);
+}
+:root {
+    --black: #141414;
+    --other-white: rgb(234, 234, 234);
+    --other-blue: rgb(51, 79, 180);
+}
+#hero h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+}
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1.3rem;
+}
+
+
+/* Hero Section */
+
+#hero {
+    background-image: url(../IMG/WhatsApp\ Image\ 2023-06-02\ at\ 01.47.52.jpeg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+#hero .hero-container {
+    height: 32vh;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+#hero .hero-container h1 {
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    color: white;
+    margin-bottom: 0px;
+}
+
+/* End Hero Section */
+
+/* Console Products Section */
+
+.products-container .products-container_links .console-products-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 8px;
+}
+.products-container .products-container_links a:hover .console-products-info p {
+    color: black;
+}
+.products-container .products-container_links .console-products-info p {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 0px;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+.products-container .products-container_links .console-products-info .console-product-buy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.products-container .products-container_links .console-products-info .console-product-buy h3 {
+    color: var(--other-blue);
+}
+
+/* End Console Products Section */
