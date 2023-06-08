@@ -108,6 +108,7 @@ h4 {
     justify-content: center;
     align-items: flex-start;
     padding: 0px 8px;
+    text-align: start;
 }
 .products-container .products-container_links a:hover .console-products-info p {
     color: black;

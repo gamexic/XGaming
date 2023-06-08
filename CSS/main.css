@@ -423,6 +423,7 @@ h4 {
     border: 1px solid black;
     border-radius: 20px;
     background-color: var(--black);
+    max-height: 300px;
 }
 .products-container .products-container_links a:hover {
     background-color: white;
