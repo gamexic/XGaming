@@ -245,6 +245,27 @@ h4 {
 
 /* End Hero Section */
 
+/* Free Deliver Section */
+
+.free-deliver-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--black);
+    text-align: center;
+}
+.free-deliver-container h2 {
+    margin-bottom: 0px;
+    color: white;
+}
+.free-deliver-container h2 span {
+    color: red;
+}
+
+/* End Free Deliver Section */
+
 /* Main Product Section */
 
 #main-product {

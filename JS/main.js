@@ -2,8 +2,6 @@ const main_product_memory_64gb = document.getElementById("main-product-memory_64
 const main_product_memory_256gb = document.getElementById("main-product-memory_256gb");
 const main_product_memory_512gb = document.getElementById("main-product-memory_512gb");
 const main__sale_indicator = document.getElementById("main--product-sale_indicator");
-const main_product_1 = document.getElementById("main-product-1");
-const main_product_2 = document.getElementById("main-product-2");
 
 select_memory(main_product_memory_64gb, main_product_memory_256gb);
 select_memory(main_product_memory_64gb, main_product_memory_512gb);
