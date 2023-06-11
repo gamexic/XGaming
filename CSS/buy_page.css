@@ -107,6 +107,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12px;
 }
 .buy-product-container .buy-product-buy_process .main-product-price p {
     font-weight: 600;
