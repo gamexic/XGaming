@@ -1,15 +1,3 @@
-const main_product_memory_64gb = document.getElementById("main-product-memory_64gb");
-const main_product_memory_256gb = document.getElementById("main-product-memory_256gb");
-const main_product_memory_512gb = document.getElementById("main-product-memory_512gb");
-const main__sale_indicator = document.getElementById("main--product-sale_indicator");
-
-select_memory(main_product_memory_64gb, main_product_memory_256gb);
-select_memory(main_product_memory_64gb, main_product_memory_512gb);
-select_memory(main_product_memory_256gb, main_product_memory_64gb);
-select_memory(main_product_memory_256gb, main_product_memory_512gb);
-select_memory(main_product_memory_512gb, main_product_memory_64gb);
-select_memory(main_product_memory_512gb, main_product_memory_256gb);
-
 /* Nav Bar Hamburger */
 
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
@@ -43,6 +31,7 @@ menu_item.forEach((item) => {
 
 // Main Product Price Section
 
+const main__sale_indicator = document.getElementById("main--product-sale_indicator");
 const main_product_price_offer = document.getElementById("main-product-price_offer");
 const main_product_main_price = document.getElementById("main-product-main-price");
 
@@ -67,19 +56,6 @@ main_product_memory_512gb.addEventListener("click", () => {
 
 // End Main Product Price Section
 
-// Main Product Memory Section
-
-function select_memory(selected_memory, future_selected_memory) {
-    future_selected_memory.addEventListener("click", () => {
-        selected_memory.style.color = "black";
-        selected_memory.style.backgroundColor = "white";
-        future_selected_memory.style.color = "white";
-        future_selected_memory.style.backgroundColor = "black";
-    })    
-};
-
-// End Main Product Memory Section
-
 // Buy Main Product Section
 
 const buy_main_product = document.getElementById("buy-main-product");
@@ -97,24 +73,3 @@ main_product_memory_512gb.addEventListener("click", () => {
 });
 
 // End Buy Main Product Section
-
-// Main Product Info Section
-
-const main_product_activator = document.getElementById("main-product-info__activator");
-const main_product_info = document.getElementById("main-product--info");
-const main_product_info__closer = document.getElementById("main-product-info__closer");
-const main_product_extra_images = document.getElementById("main-product-extra_images");
-
-main_product_activator.addEventListener("click", () => {
-	main_product_info.style.display = "flex";
-    main_product_info__closer.style.display = "flex";
-    main_product_extra_images.style.display = "grid";
-});
-
-main_product_info__closer.addEventListener("click", () => {
-    main_product_info.style.display = "none";
-    main_product_info__closer.style.display = "none";
-    main_product_extra_images.style.display = "none";
-});
-
-// End Main Product Info Section
