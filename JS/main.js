@@ -39,19 +39,19 @@ main_product_memory_64gb.addEventListener("click", () => {
     main_product_price_offer.style.display = "flex";
     main__sale_indicator.style.display = "flex";
     main_product_main_price.style.marginBottom = "0px";
-    main_product_main_price.innerText = "S/. 2,799.00 PEN";
+    main_product_main_price.innerText = "S/. 2,499.00 PEN";
 });
 main_product_memory_256gb.addEventListener("click", () => {
     main_product_price_offer.style.display = "none";
     main__sale_indicator.style.display = "none";
     main_product_main_price.style.marginBottom = "24px";
-    main_product_main_price.innerText = "S/. 3,299.00 PEN";
+    main_product_main_price.innerText = "S/. 3,099.00 PEN";
 });
 main_product_memory_512gb.addEventListener("click", () => {
     main_product_price_offer.style.display = "none";
     main__sale_indicator.style.display = "none";
     main_product_main_price.style.marginBottom = "24px";
-    main_product_main_price.innerText = "S/. 3,999.00 PEN";
+    main_product_main_price.innerText = "S/. 3,499.00 PEN";
 });
 
 // End Main Product Price Section
@@ -61,15 +61,15 @@ main_product_memory_512gb.addEventListener("click", () => {
 const buy_main_product = document.getElementById("buy-main-product");
 
 main_product_memory_64gb.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/xgxdi9";
+    buy_main_product.href = "https://wa.link/khexur";
 });
 
 main_product_memory_256gb.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/7quezr";
+    buy_main_product.href = "https://wa.link/xkzx2a";
 });
 
 main_product_memory_512gb.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/ptap78";
+    buy_main_product.href = "https://wa.link/nlno41";
 });
 
 // End Buy Main Product Section

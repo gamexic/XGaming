@@ -194,7 +194,7 @@ h4 {
 /* Hero Section */
 
 #hero {
-    background-image: url(../IMG/console_buy-1/WhatsApp\ Image\ 2023-06-02\ at\ 01.47.52.jpeg);
+    background-image: url(../IMG/console_section/console_buy-1/WhatsApp\ Image\ 2023-06-02\ at\ 01.47.52.jpeg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -529,16 +529,19 @@ h4 {
 .footer-container .footer-social_network-icons a {
     height: 48px;
     width: 48px;
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 .footer-container .footer-social_network-icons a:hover {
-    filter: grayscale(0);
+    filter: grayscale(0.5);
     background-color: var(--black);
 }
 .footer-container .footer-social_network-icons a:nth-child(1) {
     margin-right: 20px;
 }
 .footer-container .footer-social_network-icons a:nth-child(2) {
+    margin-right: 20px;
+}
+.footer-container .footer-social_network-icons a:nth-child(3) {
     margin-right: 20px;
 }
 .footer-container h4 {

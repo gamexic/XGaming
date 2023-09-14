@@ -23,16 +23,16 @@ selectColor(main_product_4, main_product_2);
 selectColor(main_product_4, main_product_3);
 
 ABP5_black.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/5gdu1v";
+    buy_main_product.href = "https://wa.link/llzv0q";
 });
 ABP5_red.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/8bcm2x";
+    buy_main_product.href = "https://wa.link/dzc1t6";
 });
 ABP5_blue.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/jefcqn";
+    buy_main_product.href = "https://wa.link/an8tg1";
 });
 ABP5_white.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/717gag";
+    buy_main_product.href = "https://wa.link/er5jxz";
 });
 
 function selectColor(selected_color, future_selected_color) {

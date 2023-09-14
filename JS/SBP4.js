@@ -8,10 +8,10 @@ selectColor(main_product_1, main_product_2);
 selectColor(main_product_2, main_product_1);
 
 ABP5_white.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/27pbc3";
+    buy_main_product.href = "https://wa.link/uw4qct";
 });
 ABP5_pink.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/bbehpr";
+    buy_main_product.href = "https://wa.link/y4gn7j";
 });
 
 function selectColor(selected_color, future_selected_color) {

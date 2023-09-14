@@ -4,13 +4,13 @@ const ABP5_black = document.querySelector(".buy-product-container .buy-product-b
 const buy_main_product = document.getElementById("buy-main-product");
 
 ABP5_yellow.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/nydx8h";
+    buy_main_product.href = "https://wa.link/0xokgm";
 });
 ABP5_pink.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/1yuler";
+    buy_main_product.href = "https://wa.link/b5zxae";
 });
 ABP5_black.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/ku6ib5";
+    buy_main_product.href = "https://wa.link/6nuyjr";
 });
 
 /* Nav Bar Hamburger */

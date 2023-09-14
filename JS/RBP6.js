@@ -1,7 +1,7 @@
-const ABP5_blackAndGray = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-blackAndGray");
-const ABP5_blackAndGold = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-blackAndGold");
+const ABP5_gray = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-gray");
+const ABP5_black = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-black");
+const ABP5_orange = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-orange");
 const ABP5_blue = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-blue");
-const ABP5_green = document.querySelector(".buy-product-container .buy-product-buy_process .main-product-color .ABP5-green");
 const buy_main_product = document.getElementById("buy-main-product");
 const main_product_1 = document.getElementById("main-product-1");
 const main_product_2 = document.getElementById("main-product-2");
@@ -22,17 +22,17 @@ selectColor(main_product_4, main_product_1);
 selectColor(main_product_4, main_product_2);
 selectColor(main_product_4, main_product_3);
 
-ABP5_blackAndGray.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/wbkcg6";
+ABP5_gray.addEventListener("click", () => {
+    buy_main_product.href = "https://wa.link/nm6jjz";
 });
-ABP5_blackAndGold.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/o5w9mn";
+ABP5_black.addEventListener("click", () => {
+    buy_main_product.href = "https://wa.link/z5bvg5";
+});
+ABP5_orange.addEventListener("click", () => {
+    buy_main_product.href = "https://wa.link/jq6fm8";
 });
 ABP5_blue.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/b707xa";
-});
-ABP5_green.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/q6xhbg";
+    buy_main_product.href = "https://wa.link/x8i8ni";
 });
 
 function selectColor(selected_color, future_selected_color) {
