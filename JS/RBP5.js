@@ -4,15 +4,15 @@ const buy_main_product = document.getElementById("buy-main-product");
 const main_product_1 = document.getElementById("main-product-1");
 const main_product_2 = document.getElementById("main-product-2");
 
-selectColor(main_product_1, main_product_2);
-selectColor(main_product_2, main_product_1);
+// selectColor(main_product_1, main_product_2);
+// selectColor(main_product_2, main_product_1);
 
-ABP5_black.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/rtuwwq";
-});
-ABP5_pink.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/eyxm9e";
-});
+// ABP5_black.addEventListener("click", () => {
+//     buy_main_product.href = "https://wa.link/rtuwwq";
+// });
+// ABP5_pink.addEventListener("click", () => {
+//     buy_main_product.href = "https://wa.link/eyxm9e";
+// });
 
 function selectColor(selected_color, future_selected_color) {
     future_selected_color.addEventListener("click", () => {

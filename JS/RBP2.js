@@ -9,31 +9,31 @@ const main_product_3 = document.getElementById("main-product-3");
 const main_product_4 = document.getElementById("main-product-4");
 
 
-selectColor(main_product_1, main_product_2);
-selectColor(main_product_1, main_product_3);
-selectColor(main_product_1, main_product_4);
-selectColor(main_product_2, main_product_1);
-selectColor(main_product_2, main_product_3);
-selectColor(main_product_2, main_product_4);
-selectColor(main_product_3, main_product_2);
-selectColor(main_product_3, main_product_1);
-selectColor(main_product_3, main_product_4);
-selectColor(main_product_4, main_product_1);
-selectColor(main_product_4, main_product_2);
-selectColor(main_product_4, main_product_3);
+// selectColor(main_product_1, main_product_2);
+// selectColor(main_product_1, main_product_3);
+// selectColor(main_product_1, main_product_4);
+// selectColor(main_product_2, main_product_1);
+// selectColor(main_product_2, main_product_3);
+// selectColor(main_product_2, main_product_4);
+// selectColor(main_product_3, main_product_2);
+// selectColor(main_product_3, main_product_1);
+// selectColor(main_product_3, main_product_4);
+// selectColor(main_product_4, main_product_1);
+// selectColor(main_product_4, main_product_2);
+// selectColor(main_product_4, main_product_3);
 
-ABP5_black.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/xu394p";
-});
-ABP5_yellow.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/trpgul";
-});
-ABP5_gray.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/o2u1m9";
-});
-ABP5_orange.addEventListener("click", () => {
-    buy_main_product.href = "https://wa.link/pnwjf6";
-});
+// ABP5_black.addEventListener("click", () => {
+//     buy_main_product.href = "https://wa.link/xu394p";
+// });
+// ABP5_yellow.addEventListener("click", () => {
+//     buy_main_product.href = "https://wa.link/trpgul";
+// });
+// ABP5_gray.addEventListener("click", () => {
+//     buy_main_product.href = "https://wa.link/o2u1m9";
+// });
+// ABP5_orange.addEventListener("click", () => {
+//     buy_main_product.href = "https://wa.link/pnwjf6";
+// });
 
 function selectColor(selected_color, future_selected_color) {
     future_selected_color.addEventListener("click", () => {
